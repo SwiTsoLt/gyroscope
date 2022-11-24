@@ -1,6 +1,7 @@
 
 window.addEventListener("deviceorientation", setDot)
 const dotElem = document.getElementById("dot")
+const messageElem = document.getElementById("message")
 
 function setDot(data) {
     const x = Math.round(data.gamma)
