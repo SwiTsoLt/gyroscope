@@ -6,5 +6,6 @@ function setDot(data) {
     const x = Math.round(data.beta)
     const y = Math.round(data.gamma)
     const z = Math.round(data.alpha)
-    dotElem.style.transform = `translate(-${x}px, -${y})px`
+    console.log(x, y);
+    dotElem.style.transform = `translate(-${x}px, -${y}px)`
 }
