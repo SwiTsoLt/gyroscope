@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {width: 100%;}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #303030;
+    font-size: 1em;
+    font-weight: normal;
+    min-height: 100vh;
+}
+
+#dot {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 50%;
+}
