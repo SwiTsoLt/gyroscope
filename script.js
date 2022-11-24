@@ -9,5 +9,5 @@ function setDot(data) {
     const z = Math.round(data.alpha)
     
     messageElem.innerText = `${x};\n${y};\n${z}`
-    dotElem.style.transform = `translate(${x*4}px, ${y*4}px)`
+    dotElem.style.transform = `translate(-${x*4}px, -${y*4}px)`
 }
