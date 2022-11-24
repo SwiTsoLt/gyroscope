@@ -1,3 +1,5 @@
+navigator.vibrate(500)
+
 
 window.addEventListener("deviceorientation", setDot)
 const dotElem = document.getElementById("dot")
