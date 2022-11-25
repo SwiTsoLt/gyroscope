@@ -10,6 +10,6 @@ function setDot(data) {
     const y = Math.round(data.beta)
     const z = Math.round(data.alpha)
     
-    messageElem.innerText = `${x};\n${y};\n${z}`
-    dotElem.style.transform = `translate(${x*(-4)}px, ${y*(-4)}px)`
+    messageElem.innerText = `x: ${x};\ny: ${y};\nz: ${z}`
+    dotElem.style.transform = `translate(${x*(4)}px, ${y*(4)}px)`
 }
